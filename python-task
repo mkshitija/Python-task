@@ -1,0 +1,8 @@
+def print_values(arr):
+  """Prints all the values in the array"""
+  for element in arr:
+    print(element)
+
+# Example usage
+my_arr = [1, "hello", 2.5, True]
+print_values(my_arr)
