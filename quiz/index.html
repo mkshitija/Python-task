@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Quiz</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Javascript Quiz</h1>
+    <p class= "scorecon">Score: <span id="score">  </span> </p>
+    <div class="timecon">
+        <h2 id="timeleft">Time left: <span id="countdown">  </span> </h2>
+    </div>
+    <div class= "questionscon">
+        <h2><strong> Question: <br> <br> </strong> <span id="question"> </span></h2>
+        <div class="answercont"> 
+            <button class="answers" id="but1"></button>
+            <button class="answers" id="but2"></button>
+            <button class="answers" id="but3"></button>
+            <button class="answers" id="but4"></button>
+        </div>
+        <div id="rightwrongcon">
+            <h3>Your answer is: <span id="rightwrong"> </span></h3>
+        </div>
+    </div>
+    <div class="buttoncon"> 
+        <button id="startbutton"> START</button>
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
